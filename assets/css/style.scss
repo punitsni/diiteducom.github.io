@@ -1,0 +1,422 @@
+$bg-dark:#414141;
+$bg-light:#f1f1f1;
+$bg-orange:#ec7e1e;
+$bg-darkorange:#a34d02;
+$font: montserrat,Helvetica,sans-serif;
+$font1: sans-serif;
+$f-company-name:#8f9296;
+$icon-color:#92999f;
+$bg-footer:#292c2f;
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.head1{
+    background-color: $bg-orange;
+    height: auto;
+}
+.anchor{
+    text-decoration: none;
+    color: $bg-light;
+}
+.info{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px;
+    margin-left: 30px;
+    font-family:$font;
+    color: $bg-light;
+}
+.btn{
+    background-color: $bg-light !important;
+    margin: 12px 0px 0px 132px;
+    color: $bg-orange !important;
+    border-radius: 50px !important;
+    font-size: 14px !important;
+    height: 35px;
+    width: 220px;
+    animation: 3s;
+}
+.circle{
+    padding-left: 175px !important;
+}
+.strip-circle{
+    background-color: $bg-light;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin:12px 0px 0px 10px;
+    text-align: center;
+    padding-top: 5px;
+    color: $bg-orange;
+}
+.diitlogo{
+    width: 220px;
+    height:61px;
+    margin-left: 15px;
+}
+.hlist{
+    font-size: 18px;
+    li{
+        padding-left: 43px;
+    }
+}
+.nl:hover{
+    color: $bg-light !important;
+    border-radius: 5px;
+    background-color: $bg-orange;
+}
+.nl6:hover{
+    color: $bg-light !important;
+    border-radius: 5px;
+    background-color: $bg-orange !important;
+}
+.nl6{
+    border:none;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+.h-Registration{
+    color: $bg-dark;
+    font-family: $font;
+}
+.img-modal{
+    width: 100%;
+}
+.modal-btn{
+    width: 98%;
+    margin-left: 4px;
+    height: 50px;
+    border-radius: 5px !important;
+    border: 2px solid $bg-orange !important;
+    background-color:#fff !important;
+    font-size: 19px !important;
+    margin-bottom: 14px;
+    font-family: $font !important;
+}
+sup{
+    color: $bg-dark;
+}
+.close-btn{
+    color:$bg-light !important;
+    background-color: $f-company-name !important;
+    font-family: montserrat, Helvetica, sans-serif !important;
+    border-radius: 4px !important;
+    width: 15%;
+    height: 40px;
+    font-weight: 500 !important;
+    font-size: 16px !important;;
+}
+.hero{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.614),rgba(0, 0, 0, 0.18)), url(../img/heroimg.png);
+    height: 582px;
+}
+.content{
+    margin: 0px 0px 0px 100px;
+}
+.heroheading{
+    color: $bg-light;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 160px 0;
+}
+.hero-para{
+    color: $bg-light;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: -130px 0px 35px 0px;
+    text-align: justify;
+}
+.hero-btn{
+    background-color: $bg-orange !important;
+    color: $bg-light !important;
+    width: 160px;
+    height: 43px;
+    font-family: $font !important;
+    font-size: 17px !important;
+    padding-top: 9px !important;
+    margin: 0px;
+}
+.s-one{
+    padding: 50px 0;
+    background-color: $bg-light;
+}
+.left-content{
+    font-family: $font;
+    color: $bg-dark;
+}
+.digital-heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 15px;
+}
+.digital-para{
+    padding: 20px 0px 0px 62px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.span-orange{
+    color: $bg-orange;
+    font-weight: 600;
+    text-align: center;
+    font-family: $font;
+}
+.man-img{
+    width: 445px;
+    height: 367px;
+}
+.s-two{
+    padding: 50px 0;
+}
+.audience{
+    font-family: $font;
+    color: $bg-dark;
+}
+.audience-para{
+    font-family: $font;
+    color: $bg-dark;
+    width: 1233px;
+    padding: 0px 0px 0px 111px;
+    text-align: center;
+}
+.left-section{
+    padding-left: 45px !important;
+    margin-bottom: 20px;
+}
+.cards{
+    width:350px ;
+    border: 0 !important;
+    outline: 0 !important;
+}
+.card-header{
+    background-color: $bg-orange !important;
+    color: $bg-light !important;
+    font-family: $font;
+}
+.list-group{
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color) !important;
+}
+.list-group-item{
+    color: $bg-dark;
+    font-family: $font;
+}
+.span-orange1{
+    color: $bg-orange;
+    font-weight: 600;
+    text-align: center;
+    font-family: $font1;
+    letter-spacing: 0.8px;
+}
+.why{
+    list-style-type: none;
+    font-family: $font;
+    letter-spacing: 0.2px;
+    color: $bg-dark;
+}
+.s-three{
+    padding: 50px 0;
+    background: linear-gradient(to top,$bg-orange,$bg-darkorange);
+}
+.certification{
+    text-align: center;
+    color: $bg-light;
+    font-family: $font;
+}
+.para-digital{
+    color: $bg-light;
+    text-align: center;
+    font-family: $font;
+}
+.left-text{
+    padding-left: 70px !important;
+}
+.certificate{
+    width: 350px;
+}
+.s-four{
+    padding: 50px 0;
+    font-family: $font;
+    color: $bg-dark;
+}
+.list{
+    list-style-type: none;
+    padding-top: 25px;
+    letter-spacing: 0.2px;
+    li{
+        padding: 10px 0;
+    }
+}
+footer{
+    background-color: $bg-footer;
+}
+.footerimgdiit{
+    width: 227px !important;
+    height: 52px;
+}
+.footer-link{
+    padding-top: 15px;
+    color: $bg-light;
+    font-family: $font;
+    font-weight: 600;
+    a{
+        color: $bg-light;
+        text-decoration: none;
+        font-family: $font;
+        font-weight: 600;
+    }
+}
+.f-company-name{
+    a{
+        color: $f-company-name;
+        font-size: 14px;
+        text-decoration: none;
+    }
+}
+.f-middle{
+    h4{
+        text-align: center;
+        font-family: $font;
+        color: $bg-light;
+    }
+}
+.f-list{
+    list-style-type: none;
+    font-family: $font1;
+    li{
+        padding-top: 15px;
+        a{
+            color: $icon-color;
+            float: left;
+            padding-right: 10px;
+        }
+    }
+}
+.f-para{
+    color: $f-company-name;
+    font-size: 14px;
+    padding-top: 1px;
+}
+.f-para1{
+    padding-left: 21px;
+    line-height: 0;
+    margin-top: -8px;
+    font-weight: 600;
+    color: $icon-color;
+    font-family: $font;
+}
+.f-para2{
+    padding-left: 21px;
+    line-height: 0;
+    padding-top: 12px;
+    font-weight: 600;
+    color: $icon-color;
+    font-family: $font;
+}
+.f-right{
+    h4{
+        text-align: center;
+        font-family: $font;
+        color: $bg-light;
+    }
+}
+.f-right-para{
+    padding-left: 25px;
+    color: $f-company-name;
+    line-height: 1.3;
+}
+.f-circle{
+    background-color: $bg-light;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin:10px 0px 0px 10px;
+    text-align: center;
+    padding-top: 2px;
+    color: $bg-dark;
+    font-size: 20px;
+}
+.f-box{
+    margin-left: 9px;
+}
+@media screen and (max-width:480px) {
+    .hlist{
+        margin-left: -35px;
+    }
+    .info{
+        padding: 20px;
+        margin-left: -5px;
+    }
+    .visit{
+        margin: 0px 0px 20px 0px;
+    }
+    .circle{
+        display: none;
+    }
+    .content{
+        margin: -87px 0px 0px 5px;
+    }
+    .heroheading{
+        font-size: 49px;
+    }
+    .hero-para{
+        font-size: 21px;
+        text-align: inherit;
+    }
+    .digital-heading{
+        padding-left: 0px;
+    }
+    .digital-para{
+        padding: 20px 0px 0px 0px;
+    }
+    .audience-para{
+        padding: 0px 0px 0px 19px;
+        width: 435px;
+    }
+    .left-section{
+        padding-left: 18px !important;
+    }
+    .right-section{
+        padding-left: 18px !important;
+    }
+    .cards{
+        width:444px;
+        height: 65px;
+    }
+    .span-orange1{
+        font-size: 42px;
+        font-family: $font1;
+    }
+    .left-text{
+        padding-left: 0px !important;
+    }
+    .certificate{
+        width: 443.6px;
+        margin-left: 6px;
+    }
+    .f-left{
+        margin-left: 36px;
+    }
+    .f-left1{
+        width: 180px !important;
+        margin-left: 60px;
+    }
+    .footerimgdiit{
+        width: 152px !important;
+        height: 32px;
+    }
+    .f-list{
+        list-style-type: none;
+        font-family: $font1;
+        margin-left: 19px;
+        padding-bottom: 15px;
+    }
+    .f-right-para{
+        padding-left: 0px;
+    }
+    .f-box{
+        margin-left: 115px;
+    }
+}
